@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["Q8XV65MMXK.com.charliezong.menxia"],
+        "components": [
+          { "/": "/menxia/*", "comment": "门下阅读器全部路径(query 由 App 内路由处理)" },
+          { "/": "/menxia", "comment": "无尾斜杠形态" }
+        ]
+      }
+    ]
+  }
+}
