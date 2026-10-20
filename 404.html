@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>404</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+  // 门下 2026-10-19 迁到 menxia-reader.github.io/menxia/。旧址 /menxia/<子路径> 落到这里，
+  // 原样带上子路径 + query + hash 转过去；其他路径照常 404。
+  (function () {
+    var p = location.pathname;
+    if (p === '/menxia' || p.indexOf('/menxia/') === 0) {
+      location.replace('https://menxia-reader.github.io' + p + location.search + location.hash);
+    }
+  })();
+</script>
+</head>
+<body>
+<p>404 · Not Found</p>
+</body>
+</html>
